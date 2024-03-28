@@ -1,0 +1,138 @@
+/* App.css
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin-bottom: 20px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+} */
+
+
+
+/* updated Portfolio.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+nav {
+  margin-bottom: 20px;
+  text-align: center; /* Aligns navigation items at center */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+/* Style links on hover */
+a:hover {
+  color: #007bff; /* Blue color for hover effect */
+}
+.active{
+  font-weight: 900;
+  text-decoration: underline;
+}
+/* a:visited{
+  font-weight: 900;
+} */
+
+/* Style headings */
+h2, h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h3 {
+  color:#333; /* Blue color for project titles */
+}
+
+/* Style paragraphs */
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Style project list */
+ul.projects-list {
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Add border between projects */
+}
+
+/* Style contact information */
+.contact-info {
+  margin-top: 20px;
+  text-align: center; /* Align contact information at center */
+}
+
+/* Style social media links */
+.contact-info a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff; /* Blue color for social media links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for link background and color */
+}
+
+.contact-info a:hover {
+  background-color: #007bff;
+  color: #fff; /* White color on hover */
+}
